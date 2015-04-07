@@ -21,10 +21,16 @@ int main(int argc, const char * argv[]) {
         
         NSArray *recipeNames = @[@"Toast", @"Bacon", @"Eggs", recipeName, recipeName2];
         
+        //Array Literals
+        NSArray *recipeObjectLiteral = [NSArray arrayWithObjects:recipeName, recipeName2, @"Steak", @"Grilled Veggies", nil];
         
+        //Array of Quantities
+        NSArray *recipeQuantities = @[@10,@15,@20,@30];
         
         NSLog(@"My favourite food is %@ and I could eat it about a %i times or %f times to be exact", recipeName, productNumber, productWeight);
         NSLog(@"%@",recipeNames);
+        NSLog(@"%@",recipeObjectLiteral);
+        NSLog(@"%@", recipeQuantities);
         //NSLog(@"Hello, World!");
         
     }
