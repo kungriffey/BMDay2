@@ -26,6 +26,41 @@ int main(int argc, const char * argv[]) {
         
         //Array of Quantities
         NSArray *recipeQuantities = @[@10,@15,@20,@30];
+ 
+        //Creation of a for loop
+        for (int i = 0; i < 100; i++) {
+            NSLog(@"My Favourite Food is %@", recipeName);
+        }
+        
+        //Creation of a while loop
+        int i = 0;
+        while (i < 10) {
+            NSLog(@"i is %i", i);
+            i++;
+        }
+        
+        //Create 2 variables to compare
+        // logical negation is !a
+        //logical AND a&&b
+        //logical OR a||b
+        int a = 4;
+        int b = 3;
+        
+        if (b == 1) {
+            NSLog(@"b is currently equal to 1");
+        }
+        else if (b == 2)
+        {
+            NSLog(@"b is equal to 2");
+        }
+        else
+        {
+            NSLog(@"b is not equal to 1 or 2");
+        }
+        
+        
+        
+        
         
         NSLog(@"My favourite food is %@ and I could eat it about a %i times or %f times to be exact", recipeName, productNumber, productWeight);
         NSLog(@"%@",recipeNames);
